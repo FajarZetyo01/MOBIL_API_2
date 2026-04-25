@@ -1,0 +1,21 @@
+### GET request to example server
+GET http://localhost:3000/api/mobil
+X-API-Key: RAHASIA
+Accept: application/json
+###
+GET http://localhost:3000/api/mobil/1
+X-API-Key: RAHASIA
+Accept: application/json
+
+###UPDATE DATA
+PUT http://localhost:3000/api/mobil/2
+X-API-Key: RAHASIA
+Accept: application/json
+Content-Type: application/json
+
+{
+  "nama_mobil": "BYD Atto 5",
+  "tahun" : 2026,
+  "merek" : "BYD",
+  "warna" : "Biru"
+}
